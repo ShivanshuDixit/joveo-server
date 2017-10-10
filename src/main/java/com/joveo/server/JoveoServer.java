@@ -1,4 +1,6 @@
-package com.joveo.server; /**
+package com.joveo.server;
+
+/**
  * Created by shivanshu.dixit on 24/09/17.
  */
 
@@ -6,6 +8,8 @@ import com.joveo.server.httpserver.handlers.RequestHandler;
 import com.joveo.server.httpserver.parser.HttpRequestParser;
 import com.joveo.server.httpserver.request.HttpRequest;
 import com.joveo.server.httpserver.response.ResponseGenerator;
+
+import org.apache.log4j.BasicConfigurator;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -22,6 +26,8 @@ public class JoveoServer {
     private int portNumber = 9333;
 
     public static void main(String[] args) throws Exception {
+
+        BasicConfigurator.configure();
 
         JoveoServer server = new JoveoServer();
         if (args != null && args.length > 0) {
@@ -46,7 +52,7 @@ public class JoveoServer {
                 try (Socket socket = listener.accept()) {
                     BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                     HttpRequest request = httpRequestParser.generateHttpRequest(in);
-                    String responseBody = requestHandler.handle(request);
+                     String responseBody = requestHandler.handle(request);
                     DataOutputStream dout = new DataOutputStream(socket.getOutputStream());
                     dout.write(responseBody.getBytes());
                     dout.flush();

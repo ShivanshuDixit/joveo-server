@@ -1,7 +1,7 @@
-
-entity.error
-entity.job
-httpserver.handlers
-httpserver.parser
-httpserver.request
-httpserver.response
+com.joveo.server
+com.joveo.server.entity.error
+com.joveo.server.entity.job
+com.joveo.server.httpserver.handlers
+com.joveo.server.httpserver.parser
+com.joveo.server.httpserver.request
+com.joveo.server.httpserver.response

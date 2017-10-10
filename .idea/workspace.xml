@@ -1,10 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb10c265-5746-44ca-be27-2d956fe6d047" name="Default" comment="" />
+    <list default="true" id="c732b4f5-455a-48a2-ae6b-add8817e1d93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/joveo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/entity/error/Error.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/request/RequestMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/response/HTTPStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/response/HttpResponse.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/entity/error/ErrorModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/httpserver/request/RequestMethod.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/httpserver/response/HTTPStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/httpserver/response/HttpResponse.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/JoveoServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/JoveoServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entity/job/CreateJobRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/entity/job/CreateJobRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entity/job/CreateJobResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/entity/job/CreateJobResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entity/job/Job.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/entity/job/Job.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/entity/job/JobRequestHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entity/job/JobStore.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/entity/job/JobStore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/httpserver/handlers/RequestHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/handlers/RequestHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/httpserver/parser/HttpRequestParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/parser/HttpRequestParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/httpserver/request/HttpRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/request/HttpRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/httpserver/response/ResponseGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/response/ResponseGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JoveoServer.class" afterPath="$PROJECT_DIR$/target/classes/JoveoServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entity/job/JobRequestHandler$1.class" afterPath="$PROJECT_DIR$/target/classes/entity/job/JobRequestHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entity/job/JobRequestHandler.class" afterPath="$PROJECT_DIR$/target/classes/entity/job/JobRequestHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entity/job/JobStore.class" afterPath="$PROJECT_DIR$/target/classes/entity/job/JobStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/httpserver/handlers/RequestHandler.class" afterPath="$PROJECT_DIR$/target/classes/httpserver/handlers/RequestHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/httpserver/parser/HttpRequestParser.class" afterPath="$PROJECT_DIR$/target/classes/httpserver/parser/HttpRequestParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/httpserver/request/RequestMethod.class" afterPath="$PROJECT_DIR$/target/classes/httpserver/request/RequestMethod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/httpserver/response/HTTPStatus.class" afterPath="$PROJECT_DIR$/target/classes/httpserver/response/HTTPStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/httpserver/response/HttpResponse.class" afterPath="$PROJECT_DIR$/target/classes/httpserver/response/HttpResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/JoveoServer.html" afterPath="$PROJECT_DIR$/javaDoc/JoveoServer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javaDoc/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javaDoc/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/constant-values.html" afterPath="$PROJECT_DIR$/javaDoc/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javaDoc/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/CreateJobRequest.html" afterPath="$PROJECT_DIR$/javaDoc/entity/CreateJobRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/CreateJobResponse.html" afterPath="$PROJECT_DIR$/javaDoc/entity/CreateJobResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/ErrorModel.html" afterPath="$PROJECT_DIR$/javaDoc/entity/ErrorModel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/Job.html" afterPath="$PROJECT_DIR$/javaDoc/entity/Job.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/JobRequestHandler.html" afterPath="$PROJECT_DIR$/javaDoc/entity/JobRequestHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/error/ErrorModel.html" afterPath="$PROJECT_DIR$/javaDoc/entity/error/ErrorModel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/error/package-frame.html" afterPath="$PROJECT_DIR$/javaDoc/entity/error/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/error/package-summary.html" afterPath="$PROJECT_DIR$/javaDoc/entity/error/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/error/package-tree.html" afterPath="$PROJECT_DIR$/javaDoc/entity/error/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/job/CreateJobRequest.html" afterPath="$PROJECT_DIR$/javaDoc/entity/job/CreateJobRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/job/CreateJobResponse.html" afterPath="$PROJECT_DIR$/javaDoc/entity/job/CreateJobResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/job/Job.html" afterPath="$PROJECT_DIR$/javaDoc/entity/job/Job.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/job/JobRequestHandler.html" afterPath="$PROJECT_DIR$/javaDoc/entity/job/JobRequestHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/job/package-frame.html" afterPath="$PROJECT_DIR$/javaDoc/entity/job/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/job/package-summary.html" afterPath="$PROJECT_DIR$/javaDoc/entity/job/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/job/package-tree.html" afterPath="$PROJECT_DIR$/javaDoc/entity/job/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/package-frame.html" afterPath="$PROJECT_DIR$/javaDoc/entity/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/package-summary.html" afterPath="$PROJECT_DIR$/javaDoc/entity/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/entity/package-tree.html" afterPath="$PROJECT_DIR$/javaDoc/entity/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/help-doc.html" afterPath="$PROJECT_DIR$/javaDoc/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/handlers/RequestHandler.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/handlers/RequestHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/handlers/package-frame.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/handlers/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/handlers/package-summary.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/handlers/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/handlers/package-tree.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/handlers/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/parser/HttpRequestParser.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/parser/HttpRequestParser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/parser/package-frame.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/parser/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/parser/package-summary.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/parser/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/parser/package-tree.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/parser/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/request/HttpRequest.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/request/HttpRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/request/RequestMethod.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/request/RequestMethod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/request/package-frame.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/request/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/request/package-summary.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/request/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/request/package-tree.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/request/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/response/HTTPStatus.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/response/HTTPStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/response/HttpResponse.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/response/HttpResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/response/ResponseGenerator.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/response/ResponseGenerator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/response/package-frame.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/response/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/response/package-summary.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/response/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/httpserver/response/package-tree.html" afterPath="$PROJECT_DIR$/javaDoc/httpserver/response/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-10.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/javaDoc/index-files/index-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/index.html" afterPath="$PROJECT_DIR$/javaDoc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/overview-frame.html" afterPath="$PROJECT_DIR$/javaDoc/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/overview-summary.html" afterPath="$PROJECT_DIR$/javaDoc/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/overview-tree.html" afterPath="$PROJECT_DIR$/javaDoc/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/package-frame.html" afterPath="$PROJECT_DIR$/javaDoc/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/package-list" afterPath="$PROJECT_DIR$/javaDoc/package-list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/package-summary.html" afterPath="$PROJECT_DIR$/javaDoc/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/package-tree.html" afterPath="$PROJECT_DIR$/javaDoc/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaDoc/serialized-form.html" afterPath="$PROJECT_DIR$/javaDoc/serialized-form.html" />
+    </list>
     <ignored path="joveo-server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,14 +117,13 @@
     <favorites_list name="joveo-server" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="JoveoServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JoveoServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joveo/server/JoveoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -37,90 +131,20 @@
         </entry>
       </file>
       <file leaf-file-name="RequestHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/handlers/RequestHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/handlers/RequestHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/ResponseGenerator.java">
+      <file leaf-file-name="joveo-server.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joveo-server.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTTPStatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/HTTPStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/HttpResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpRequestParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/parser/HttpRequestParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/request/HttpRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateJobRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/job/CreateJobRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateJobResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/job/CreateJobResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobRequestHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,12 +152,8 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -143,26 +163,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/entity/Job.java" />
-        <option value="$PROJECT_DIR$/src/main/java/httpserver/request/RequestMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/httpserver/request/HttpRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/httpserver/JoveoServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/httpserver/response/HttpResponse.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/ErrorModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/CreateJobResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/JobRequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/JobStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/httpserver/parser/HttpRequestParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/httpserver/response/HTTPStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/httpserver/response/ResponseGenerator.java" />
-        <option value="$PROJECT_DIR$/javaDoc/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/CreateJobRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/job/CreateJobRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/error/ErrorModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/httpserver/handlers/RequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JoveoServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joveo/server/JoveoServer.java" />
       </list>
     </option>
   </component>
@@ -203,8 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -256,28 +257,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joveo-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joveo-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -287,38 +266,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="httpserver.response" />
-      <recent name="entity" />
-      <recent name="httpserver.handlers" />
-      <recent name="httpserver.parser" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/entity/job" />
-      <recent name="$PROJECT_DIR$/src/main/java/entity" />
-      <recent name="$PROJECT_DIR$/src/main/java/httpserver/request" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.JoveoServer">
-    <configuration default="false" name="JoveoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="JoveoServer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="joveo-server" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -484,7 +432,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="joveo-server" />
+      <module name="joveo" />
       <envs />
       <method />
     </configuration>
@@ -511,7 +459,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joveo-server" />
+      <module name="joveo" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -590,7 +538,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joveo-server" />
+      <module name="joveo" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -602,7 +550,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joveo-server" />
+      <module name="joveo" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -621,7 +569,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joveo-server" />
+      <module name="joveo" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -640,7 +588,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joveo-server" />
+      <module name="joveo" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -661,7 +609,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joveo-server" />
+      <module name="joveo" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -683,7 +631,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="joveo-server" />
+      <module name="joveo" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -698,149 +646,66 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.JoveoServer" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.JoveoServer" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb10c265-5746-44ca-be27-2d956fe6d047" name="Default" comment="" />
-      <created>1506198854067</created>
+      <changelist id="c732b4f5-455a-48a2-ae6b-add8817e1d93" name="Default" comment="" />
+      <created>1507621032833</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1506198854067</updated>
+      <updated>1507621032833</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JoveoServer.java</url>
-          <line>25</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JoveoServer.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java</url>
-          <line>95</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/httpserver/handlers/RequestHandler.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="24" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JoveoServer.java">
+    <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/handlers/RequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="-88">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/ResponseGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaDoc/index.html">
+    <entry file="file://$PROJECT_DIR$/joveo-server.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -848,313 +713,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/HTTPStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CreateJobRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/JobRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/parser/HttpRequestParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/HttpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/request/RequestMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JoveoServer.java">
+    <entry file="file://$PROJECT_DIR$/joveo.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joveo/server/httpserver/handlers/RequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joveo/server/JoveoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/ResponseGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/HTTPStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/HttpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/JobRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CreateJobRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CreateJobResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/error/ErrorModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/JobStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CreateJobModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CreateJobResponseModel.java" />
-    <entry file="file://$PROJECT_DIR$/javaDoc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/JobRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CreateJobRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CreateJobResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/JobStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/job/JobStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/job/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/error/ErrorModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/request/RequestMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/request/HttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/ResponseGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/HTTPStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/response/HttpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/parser/HttpRequestParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/job/CreateJobResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/job/CreateJobRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/httpserver/handlers/RequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/job/JobRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JoveoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1217,7 +796,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

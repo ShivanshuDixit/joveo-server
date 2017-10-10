@@ -3,7 +3,11 @@ a tcp network library implement the HTTP protocol with the  following capabiliti
 
 How to run App:
 
-Checkout this project and Import as maven project in IntelliJ. Run main application class JoveoServer 
+Checkout this project and Import as maven project in IntelliJ. Run main application class JoveoServer.
+
+JavaDoc : I have also generated Java Docs inside a seperate folder JavaDoc. Please refer them.
+
+http://localhost:63342/joveo-server/javaDoc/index.html
 
 Sample PUT curl :
 
